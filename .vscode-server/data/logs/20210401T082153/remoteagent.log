@@ -1,0 +1,29 @@
+[2021-04-01 08:21:53.361] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-04-01 08:21:53.361] [remoteagent] [info] Extension host agent started.
+[2021-04-01 08:21:53.842] [remoteagent] [info] [127.0.0.1][339e3031][ManagementConnection] New connection established.
+[2021-04-01 08:21:54.049] [remoteagent] [info] [127.0.0.1][88c8bf21][ExtensionHostConnection] New connection established.
+[2021-04-01 08:21:54.234] [remoteagent] [info] [127.0.0.1][88c8bf21][ExtensionHostConnection] <1487> Launched Extension Host Process.
+[2021-04-01 08:22:06.145] [remoteagent] [info] [127.0.0.1][339e3031][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-04-01 08:22:07.170] [remoteagent] [info] [127.0.0.1][88c8bf21][ExtensionHostConnection] <1487> Extension Host Process exited with code: 0, signal: null.
+[2021-04-01 08:22:07.170] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-04-01 08:22:10.363] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2021-04-01 08:22:10.363] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-04-01 08:22:11.036] [remoteagent] [info] [127.0.0.1][6ccd47b0][ManagementConnection] New connection established.
+[2021-04-01 08:22:11.261] [remoteagent] [info] [127.0.0.1][6d03a697][ExtensionHostConnection] New connection established.
+[2021-04-01 08:22:11.268] [remoteagent] [info] [127.0.0.1][6d03a697][ExtensionHostConnection] <1690> Launched Extension Host Process.
+[2021-04-01 08:27:10.364] [remoteagent] [info] New EH opened, aborting shutdown
+[2021-04-01 17:04:06.140] [remoteagent] [info] [127.0.0.1][6ccd47b0][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-04-01 19:33:41.202] [remoteagent] [info] [127.0.0.1][6ccd47b0][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2021-04-01 19:33:41.204] [remoteagent] [info] [127.0.0.1][6ccd47b0][ManagementConnection] The client has reconnected.
+[2021-04-01 19:33:42.086] [remoteagent] [info] [127.0.0.1][6d03a697][ExtensionHostConnection] The client has reconnected.
+[2021-04-01 21:31:59.439] [remoteagent] [info] [127.0.0.1][6ccd47b0][ManagementConnection] The client has reconnected.
+[2021-04-01 21:32:00.477] [remoteagent] [info] [127.0.0.1][6d03a697][ExtensionHostConnection] The client has reconnected.

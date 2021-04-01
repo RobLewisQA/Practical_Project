@@ -1,0 +1,2019 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/rob
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+From https://github.com/RobLewisQA/Lottery_Project
+ * [new branch]      feature    -> origin/feature
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads
+> git checkout -q --track origin/development
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads
+> git checkout -q --track origin/feature
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/feature refs/remotes/feature
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads
+> git checkout -q development
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/backend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/service_2/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git check-ignore -v -z --stdin
+> git show --textconv :lottery_project/Lottery_Project/backend/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Application/__init__.py
+> git show --textconv :lottery_project/Lottery_Project/backend/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Application/models.py
+> git check-ignore -v -z --stdin
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/backend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/backend/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Application/models.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/backend/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Application/__init__.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/service_2/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/service_2/requirements.txt
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/requirements.txt
+> git show --textconv :lottery_project/Lottery_Project/Jenkinsfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Jenkinsfile
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/backend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git show --textconv :lottery_project/Lottery_Project/backend/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Application/models.py
+> git show --textconv :lottery_project/Lottery_Project/backend/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Application/__init__.py
+> git check-ignore -v -z --stdin
+> git show --textconv :lottery_project/Lottery_Project/service_3/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_3/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_3/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_3/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/service_3/requirements.txt
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_3/requirements.txt
+> git check-ignore -v -z --stdin
+> git show --textconv :lottery_project/Lottery_Project/service_3/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_3/Application/models.py
+> git show --textconv :lottery_project/Lottery_Project/service_3/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_3/Application/__init__.py
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_3/Application/__init__.py
+> git show --textconv :lottery_project/Lottery_Project/service_3/Application/__init__.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git show --textconv :lottery_project/Lottery_Project/service_3/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_3/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/requirements.txt
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/requirements.txt
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Application/Templates/home.html
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Application/Templates/home.html
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Application/Templates/home.html
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Application/Templates/home.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/Frontend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/Frontend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/app.py
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git show --textconv :lottery_project/Lottery_Project/Frontend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git show --textconv :lottery_project/Lottery_Project/backend/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Application/__init__.py
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/backend/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Application/__init__.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :lottery_project/Lottery_Project/service_2/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Application/__init__.py
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/service_2/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Application/models.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/service_2/requirements.txt
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/requirements.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/service_2/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/service_2/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Application/__init__.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/service_3/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_3/Application/__init__.py
+> git show --textconv :lottery_project/Lottery_Project/service_3/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_3/Application/models.py
+> git check-ignore -v -z --stdin
+> git show --textconv :lottery_project/Lottery_Project/service_3/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_3/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_3/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_3/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/service_3/requirements.txt
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_3/requirements.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/service_3/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_3/Application/__init__.py
+> git show --textconv :lottery_project/Lottery_Project/service_3/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_3/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/Jenkinsfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Jenkinsfile
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/Frontend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/Frontend/requirements.txt
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/requirements.txt
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/requirements.txt
+> git show --textconv :lottery_project/Lottery_Project/Frontend/requirements.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Application/Templates/home.html
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Application/Templates/home.html
+> git show --textconv :lottery_project/Lottery_Project/Frontend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/app.py
+> git show --textconv :lottery_project/Lottery_Project/backend/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Application/models.py
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git show --textconv :lottery_project/Lottery_Project/backend/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Application/models.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git show --textconv :lottery_project/Lottery_Project/backend/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Application/models.py
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/Frontend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/backend/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Application/models.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/backend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/backend/Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/backend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/Frontend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :lottery_project/Lottery_Project/nginx/nginx.conf
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/nginx/nginx.conf
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/backend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/service_2/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/nginx/nginx.conf
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/nginx/nginx.conf
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/backend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git show --textconv :lottery_project/Lottery_Project/backend/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Application/models.py
+> git show --textconv :lottery_project/Lottery_Project/backend/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Application/__init__.py
+> git show --textconv :lottery_project/Lottery_Project/backend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git show --textconv :lottery_project/Lottery_Project/backend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Dockerfile
+> git check-ignore -v -z --stdin
+> git show --textconv :lottery_project/Lottery_Project/service_2/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Application/__init__.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Application/models.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/service_2/requirements.txt
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/requirements.txt
+> git show --textconv :lottery_project/Lottery_Project/service_3/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_3/Application/__init__.py
+> git show --textconv :lottery_project/Lottery_Project/service_3/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_3/Application/models.py
+> git show --textconv :lottery_project/Lottery_Project/service_3/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_3/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_3/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_3/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/Jenkinsfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Jenkinsfile
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/service_2/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/backend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Application/Templates/home.html
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Application/Templates/home.html
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Application/__init__.py
+> git show --textconv :lottery_project/Lottery_Project/backend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git show --textconv :lottery_project/Lottery_Project/backend/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Application/models.py
+> git show --textconv :lottery_project/Lottery_Project/backend/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Application/__init__.py
+> git check-ignore -v -z --stdin
+> git show --textconv :lottery_project/Lottery_Project/backend/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Application/models.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Application/__init__.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Application/models.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git check-ignore -v -z --stdin
+> git show --textconv :lottery_project/Lottery_Project/service_2/Tests/app_test.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Tests/app_test.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Dockerfile
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/service_2/Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/service_2/Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/service_3/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_3/Application/__init__.py
+> git show --textconv :lottery_project/Lottery_Project/service_3/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_3/Application/models.py
+> git show --textconv :lottery_project/Lottery_Project/service_3/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_3/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/service_3/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_3/app.py
+> git show --textconv :lottery_project/Lottery_Project/Jenkinsfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Jenkinsfile
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/service_2/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Application/__init__.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Application/models.py
+> git show --textconv :lottery_project/Lottery_Project/nginx/nginx.conf
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/nginx/nginx.conf
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/Frontend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/app.py
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/app.py
+> git show --textconv :lottery_project/Lottery_Project/Frontend/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/Frontend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/app.py
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Application/models.py
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Application/__init__.py
+> git show --textconv :lottery_project/Lottery_Project/backend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git show --textconv :lottery_project/Lottery_Project/backend/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Application/models.py
+> git show --textconv :lottery_project/Lottery_Project/backend/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Application/__init__.py
+> git show --textconv :lottery_project/Lottery_Project/backend/Application/Templates/home.html
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Application/Templates/home.html
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git show --textconv :lottery_project/Lottery_Project/backend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Application/__init__.py
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git show --textconv :lottery_project/Lottery_Project/backend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Application/Templates/home.html
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Application/Templates/home.html
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Application/__init__.py
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Application/models.py
+> git show --textconv :lottery_project/Lottery_Project/Frontend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/app.py
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/nginx/nginx.conf
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/nginx/nginx.conf
+> git show --textconv :lottery_project/Lottery_Project/service_2/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Application/__init__.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Application/models.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/service_2/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/Jenkinsfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Jenkinsfile
+> git show --textconv :lottery_project/Lottery_Project/Frontend/requirements.txt
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/requirements.txt
+> git show --textconv :lottery_project/Lottery_Project/nginx/nginx.conf
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/nginx/nginx.conf
+> git show --textconv :lottery_project/Lottery_Project/Frontend/requirements.txt
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/requirements.txt
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/Frontend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/app.py
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Application/models.py
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Application/__init__.py
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Application/Templates/home.html
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Application/Templates/home.html
+> git show --textconv :lottery_project/Lottery_Project/backend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git show --textconv :lottery_project/Lottery_Project/Frontend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/app.py
+> git show --textconv :lottery_project/Lottery_Project/backend/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Application/models.py
+> git show --textconv :lottery_project/Lottery_Project/backend/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Application/__init__.py
+> git show --textconv :lottery_project/Lottery_Project/backend/CreateTable.sql
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/CreateTable.sql
+> git show --textconv :lottery_project/Lottery_Project/backend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/app.py
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/Frontend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/service_2/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/requirements.txt
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/requirements.txt
+> git show --textconv :lottery_project/Lottery_Project/service_2/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Application/models.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Application/__init__.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/backend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/service_2/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Application/models.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Application/__init__.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/Application/Templates/home.html
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Application/Templates/home.html
+> git show --textconv :lottery_project/Lottery_Project/service_2/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/service_2/requirements.txt
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/requirements.txt
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/requirements.txt
+> git show --textconv :lottery_project/Lottery_Project/service_2/requirements.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/requirements.txt
+> git show --textconv :lottery_project/Lottery_Project/service_2/requirements.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/requirements.txt
+> git show --textconv :lottery_project/Lottery_Project/service_2/requirements.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/requirements.txt
+> git show --textconv :lottery_project/Lottery_Project/service_2/requirements.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/backend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/backend/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/nginx/nginx.conf
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/nginx/nginx.conf
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/nginx/nginx.conf
+> git show --textconv :lottery_project/Lottery_Project/nginx/nginx.conf
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/Frontend/app.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/app.py
+> git show --textconv :lottery_project/Lottery_Project/service_2/Dockerfile
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Dockerfile
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/service_2/Dockerfile
+> git show --textconv :lottery_project/Lottery_Project/service_2/Dockerfile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/development refs/remotes/development
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :lottery_project/Lottery_Project/docker-compose.yaml
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/docker-compose.yaml
+> git show --textconv :lottery_project/Lottery_Project/nginx/nginx.conf
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/nginx/nginx.conf
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Application/models.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Application/models.py
+> git show --textconv :lottery_project/Lottery_Project/Frontend/Application/__init__.py
+> git ls-files --stage -- /home/rob/lottery_project/Lottery_Project/Frontend/Application/__init__.py
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/rob/lottery_project/Lottery_Project/Frontend/Application/__init__.py
+> git add -A -- .

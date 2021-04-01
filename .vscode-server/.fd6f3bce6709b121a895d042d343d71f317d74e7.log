@@ -1,0 +1,39 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+Extension host agent listening on 38619
+
+[08:21:53] Extension host agent started.
+[08:21:53] [127.0.0.1][339e3031][ManagementConnection] New connection established.
+[08:21:54] [127.0.0.1][88c8bf21][ExtensionHostConnection] New connection established.
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+[08:21:54] [127.0.0.1][88c8bf21][ExtensionHostConnection] <1487> Launched Extension Host Process.
+[08:22:06] [127.0.0.1][339e3031][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:22:07] [127.0.0.1][88c8bf21][ExtensionHostConnection] <1487> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[08:22:07] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[08:22:10] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[08:22:10] Cancelling previous shutdown timeout
+[08:22:11] [127.0.0.1][6ccd47b0][ManagementConnection] New connection established.
+[08:22:11] [127.0.0.1][6d03a697][ExtensionHostConnection] New connection established.
+[08:22:11] [127.0.0.1][6d03a697][ExtensionHostConnection] <1690> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[08:27:10] New EH opened, aborting shutdown
+[17:04:06] [127.0.0.1][6ccd47b0][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/rob/.vscode-server/bin/fd6f3bce6709b121a895d042d343d71f317d74e7/out/bootstrap.js:1:370)
+    at process.emit (events.js:315:20)
+[19:33:41] [127.0.0.1][6ccd47b0][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[19:33:41] [127.0.0.1][6ccd47b0][ManagementConnection] The client has reconnected.
+[19:33:42] [127.0.0.1][6d03a697][ExtensionHostConnection] The client has reconnected.
+[21:31:59] [127.0.0.1][6ccd47b0][ManagementConnection] The client has reconnected.
+[21:32:00] [127.0.0.1][6d03a697][ExtensionHostConnection] The client has reconnected.
