@@ -78,3 +78,147 @@ docker-compose up
 docker-compose --version
 docker --version
 ls
+git origin
+git remote
+git branch
+docker-compose up
+docker-compose down
+docker ps
+docker ps -a
+docker-compose ps
+docker-compose ps -a
+docker images
+docker-compose up 
+docker-compose down
+docker-compose up
+docker-compose down
+docker-compose up
+docker-compose down
+docker-compose up
+docker-compose down
+docker-compose ps
+docker images
+docker ps -a
+docker system prune -a
+docker ps
+docker ps -a
+docker images
+docker ps
+docker ps -a
+docker images -a
+docker login --username=roblewisqa --email=rlewis@academytraineee.com
+docker login --username=roblewisqa --password=9qjwbhhG!
+docker-compose build
+docker-compose up
+docker-compose down
+docker ps
+docker system prune
+docker images -a
+docker system prune -a
+docker-compose build
+docker-compose up
+docker images
+docker ps
+docker ps -a
+docker container prune
+docker system prune -a
+docker images -a
+docker ps -a
+docker login --username=roblewisqa --password=9qjwbhhG!
+docker-compose build
+docker images
+docker push roblewisqa/lottery_project_test:backend
+docker push roblewisqa/lottery_project_test/backend
+docker push backend
+docker push roblewisqa/backend
+docker ps
+docker system prune -a
+docker-compose build
+docker ps
+docker ps -a
+docker images -a
+docker push roblewisqa/backend:latest
+docker push backend:latest
+docker login --username=roblewisqa --password=9qjwbhhG!
+docker push backend:latest
+docker-compose push
+docker-compose push roblewisqa/lottery_project_test
+docker-compose push roblewisqa/lottery_project_test/backend
+docker push roblewisqa/lottery_project_test/backend
+docker push roblewisqa/lottery_project_test/mysql:5.7
+docker push roblewisqa/mysql:5.7
+docker images
+docker push roblewisqa/mysql:5.7
+docker push roblewisqa/python:3.6
+docker push roblewisqa/python
+docker push roblewisqa
+docker push roblewisqa/backend/mysql:5.7
+docker push backend/mysql:5.7
+docker images
+docker push python:3.6
+docker push roblewisqa/python:3.6
+docker ps
+docker system prune -a
+docker-compose build
+docker images
+docker ps
+docker push roblewisqa/mysql:latest
+docker swarm init
+docker-compose up -d
+curl localhost
+docker-compose build
+docker-compose up -d
+curl localhost
+docker-compose stop
+docker-compose down
+docker container prune -a
+docker container prune
+docker system prune -a
+docker-compose build
+docker-compose up -d
+docker-compose logs
+docker-compose stop
+docker-compose down
+docker-compose build
+docker-compose up -d
+docker-compose logs
+docker-compose down -f
+docker-compose down
+docker-compose build
+docker-compose up -d
+docker-compose logs
+docker-compose down
+docker container prune -a
+docker container prune
+docker ps
+docker ps -a
+docker system prune -a
+docker images -a 
+docker-compose build
+docker-compose up -d
+docker-compose logs
+docker-build stop
+docker-compose stop
+docker swarm leave
+docker swarm leave -f
+docker container prune
+docker ps
+docker ps -a
+docker-compose ps
+docker images -a
+docker system prune -a
+docker-compose build
+docker images
+docker system prune -a
+docker images
+docker images -a
+service docker restart
+docker-machine restart
+sudo service docker restart
+docker --version
+docker-compose build
+docker-compose images
+docker images
+docker exec service_2
+git remote
+git branch
