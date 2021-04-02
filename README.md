@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Lottery_Project
 ## Application Overview
 > Lottery is a web application for use by [NAMEHERE] for [PURPOSEHERE]. It is designed for [CONTEXTHERE]. 
@@ -52,3 +53,6 @@ Versions of libraries are updated and compatability issues are not mitigated) | 
 ## References:
 ##### H
 ##### H
+=======
+# Practical_Project
+>>>>>>> 9f5e215fc12c67d4361cddea30769ddea902de7c
