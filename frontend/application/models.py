@@ -6,5 +6,6 @@ class Users(db.Model):
 	first_name = db.Column(db.String(30), nullable=False)
 	last_name = db.Column(db.String(30), nullable=False)
 	email = db.Column(db.String(150), nullable=False, unique=True)
-	def __repr__(self):
-		return ''.join(['User ID: ', str(self.id), '\r\n', 'Email: ', self.email, ' Name: ', self.first_name, ' ', self.last_name, '\n'])
+	rand_number = db.Column(db.Integer, nullable=False)
+	#def __repr__(self):
+#		return ''.join(['User ID: ', str(self.id), '\r\n', 'Email: ', self.email, ' Name: ', self.first_name, ' ', self.last_name, ' ', self.rand_number, '\n'])
