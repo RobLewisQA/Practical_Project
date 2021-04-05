@@ -1,9 +1,9 @@
 version: "3.8"
 services:
   frontend:
-    container_name: frontend
-    image: frontend:latest
-    build: ./frontend
+    container_name: back-end
+    image: back-end:latest
+    build: ./back-end
     ports:
     - target: 5000
       published: 5000
@@ -30,3 +30,12 @@ services:
     - type: bind
       source: ./nginx/nginx.conf
       target: /etc/nginx/nginx.conf
+  
+  random_numbers:
+    container_name: random_numbers
+    image: random_numbers:latest
+    build: ./random_numbers
+    ports:
+    - target: 5001
+      published: 5001
+      protocol: tcp

@@ -1,6 +1,8 @@
 from flask import Flask, redirect, request, url_for,render_template
 from application import app, db, models
 from application.models import Users
+from flask_sqlalchemy import SQLAlchemy
+import requests
 
 
 @app.route('/')
@@ -19,7 +21,7 @@ def add_users():
         new_first_name = request.form['first_name']
         new_last_name = request.form['last_name']
         new_email = request.form['email']
-        new_number = 1
+        new_number = requests.get('http://random_numbers:5001/rnum').text
         new_user = Users(first_name=new_first_name,last_name=new_last_name,email=new_email,rand_number=new_number)
         db.session.add(new_user)
         db.session.commit()
