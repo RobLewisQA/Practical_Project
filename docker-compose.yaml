@@ -1,12 +1,11 @@
 version: "3.8"
 services:
-  frontend:
+  back-end:
     container_name: back-end
     image: back-end:latest
     build: ./back-end
     ports:
     - target: 5000
-      published: 5000
       protocol: tcp
 
   db: 
@@ -17,7 +16,6 @@ services:
       MYSQL_ROOT_PASSWORD: password
     ports:
     - target: 3306
-      published: 3306
       protocol: tcp
 
   nginx:
@@ -37,7 +35,6 @@ services:
     build: ./random_numbers
     ports:
     - target: 5001
-      published: 5001
       protocol: tcp
 
   random_letters:
@@ -46,5 +43,13 @@ services:
     build: ./random_letters
     ports:
     - target: 5002
-      published: 5002
+      protocol: tcp
+
+  frontend:
+    container_name: frontend
+    image: frontend:latest
+    build: ./frontend
+    ports:
+    - target: 5003
+      published: 5003
       protocol: tcp
