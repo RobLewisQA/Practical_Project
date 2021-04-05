@@ -21,7 +21,9 @@ def add_users():
         new_first_name = request.form['first_name']
         new_last_name = request.form['last_name']
         new_email = request.form['email']
-        new_number = requests.get('http://random_numbers:5001/rnum').text
+        new_num = requests.get('http://random_numbers:5001/rnum').text
+        new_let = requests.get('http://random_letters:5002/rletters').text
+        new_number = str(new_num)+new_let
         new_user = Users(first_name=new_first_name,last_name=new_last_name,email=new_email,rand_number=new_number)
         db.session.add(new_user)
         db.session.commit()
