@@ -39,3 +39,12 @@ services:
     - target: 5001
       published: 5001
       protocol: tcp
+
+  random_letters:
+    container_name: random_letters
+    image: random_letters:latest
+    build: ./random_letters
+    ports:
+    - target: 5002
+      published: 5002
+      protocol: tcp
