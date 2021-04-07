@@ -5,6 +5,6 @@ app = Flask(__name__)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:password@mysql:3306/flask-db'
 
-db = SQLAlchemy(app)
+#db = SQLAlchemy(app)
 
-#from application import routes
+from application import routes

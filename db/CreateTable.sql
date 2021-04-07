@@ -4,7 +4,8 @@ CREATE TABLE IF NOT EXISTS users
                           first_name VARCHAR(30) NOT NULL,
                           last_name  VARCHAR(30) NOT NULL,
                           email      VARCHAR(150),
-                          rand_number INTEGER NOT NULL,
+                          rand_number VARCHAR(150) NOT NULL,
+                          win_lose VARCHAR(150) NOT NULL,
                           PRIMARY KEY (id),
                           UNIQUE (email)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -12,6 +13,6 @@ CREATE TABLE IF NOT EXISTS users
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'Ben','Hesketh','test@test7.com',5),(2,'Luke','Benson','test@test.com',4),(3,'Matt','Hunt','test4@test.com',7);
+INSERT INTO `users` VALUES (1,'Test','User','test@abc.xyz','0','Test');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
