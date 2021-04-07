@@ -1,7 +1,8 @@
-from flask import Flask, redirect, request, url_for,render_template
+from flask import Flask, redirect, request, url_for,render_template,jsonify
 from application import app, db, models
 from application.models import Users
 from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import func
 import requests
 
 
